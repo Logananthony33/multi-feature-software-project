@@ -1,5 +1,5 @@
 const login = require('../login');
 
 test('valid login', () => {
-  expect(login('admin', '1234')).toBe(true);
+  expect(login('admin', 'pass1234')).toBe(true);
 });
